@@ -1,4 +1,4 @@
-# vue-weather-app
+# sample-openweathermap-vuejs
 Weather app using Vue.js, OpenWeatherMap. 
 
 ## Project setup
@@ -26,3 +26,5 @@ npm run build
 ```
 npm run lint
 ```
+
+![](./2023-01-10_22-42-07.png)
