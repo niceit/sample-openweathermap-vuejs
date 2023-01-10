@@ -5,7 +5,7 @@
       :class="[
       {'weather-rain': getWeatherMain.info == 'Rain'},
       {'weather-snow': getWeatherMain.info == 'Snow'},
-      {'weather-clear': getWeatherMain.info == 'Clear' || getWeatherMain.info == 'Mist'},
+      {'weather-clear': getWeatherMain.info == 'Clear' || getWeatherMain.info == 'Mist' || getWeatherMain.info == 'Drizzle'},
       {'weather-clouds': getWeatherMain.info == 'Clouds' || getWeatherMain.info == 'Haze'},
       {'error': getError}]"
     ></div>
