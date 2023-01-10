@@ -27,8 +27,10 @@ export default {
   watch: {
     getWeatherMain: function (val) {
       const { coord } = val;
-      this.fetchHourData(coord);
-      this.fetchDayData(coord);
+      if (typeof coord !== "undefined") {
+        this.fetchHourData(coord);
+        this.fetchDayData(coord);
+      }
     }
   },
   methods: {
